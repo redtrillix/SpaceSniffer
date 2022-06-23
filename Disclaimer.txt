@@ -1,0 +1,56 @@
+================================
+SpaceSniffer - License Agreement
+================================
+
+Please read the following terms and conditions carefully 
+before using this software. Use of this software indicates 
+you accept the terms of this license agreement and warranty.
+
+
+Disclaimer of Warranty
+----------------------
+SpaceSniffer (this software) is provided "as-is" and without 
+warranty of any kind, express, implied or otherwise, 
+including without limitation, any warranty of merchantability 
+or fitness for a particular purpose. 
+
+In no event shall the author of this software be held liable 
+for data loss, damages, loss of profits or any other kind 
+of loss while using or misusing this software.
+
+License
+-------
+SpaceSniffer is free for personal and educational (including 
+non-profit organization) use. In these cases, you are granted 
+the right to use and to make an unlimited number of copies 
+of this software.
+
+Anyway, a donation to support the project is welcome.
+
+SpaceSniffer is free also for commercial use, but consider
+that in this case a donation is more than welcome. 
+
+Distribution
+------------
+The package must be the original package as downloaded from 
+the developer site. 
+You may not alter the package by adding, removing or modifying 
+any of its files.
+
+If you plan to mass distribute this package (example: magazine)
+or other type of mass distribution, I'll glad to be informed. 
+Please contact me at info@uderzo.it, thank you.
+
+Support with a donation
+-----------------------
+Visit http://www.uderzo.it/main_products/space_sniffer/donate.html 
+to support this project. Thank you in advance!
+
+Restrictions on Use
+-------------------
+This software must not be decompiled, disassembled, reverse 
+engineered or otherwise modified. The software is free for use
+but source code is not free.
+
+Copyright (C) 2007-2016 Uderzo Umberto. All rights reserved.
+

@@ -1,0 +1,207 @@
+============================
+SpaceSniffer - Release Notes
+============================
+
+Features Flags
+--------------
+[+] New feature has been added
+[!] Feature has been improved
+[#] Feature has been fixed
+[-] Feature has been removed
+
+v 1.3.0.2
+---------
+[#] Fixed binary export file format (Version 2). Now text elements are encoded in Base 64 format
+    to prevent special characters corruption. Version 1 files are still readable.
+
+v 1.3.0.1
+---------
+[!] Improved rendering speed
+[#] Fixed codepage in export function
+[#] Restored centered text position for non-drilled folder items (bugged since v 1.1.3.0)
+
+v 1.3.0.0
+---------
+[!] Improved stability
+[+] Added the drive free space directly on the window title
+[!] Changed log console toolbar icons to (hopefully) more meaningful ones
+[+] Now the log console can give hints on certain errors
+[+] Now it's possible to deactivate the file system changes detector
+[#] Fixed a deadlock that occurred when closing the main window, keeping the app in memory
+[#] Fixed Base64 parsing of pre 1.2.0.0 config files
+[#] Fixed bad color list rendering in config panel
+[-] Executable is no more packed using UPX, due to some false positive virus warnings
+
+
+v 1.2.0.2
+---------
+[#] Fixed a scan issue (error 87) under XP and Vista.
+[#] Fixed a config file save path issue.
+
+
+v 1.2.0.1
+---------
+[#] Fixed command line "scan" command.
+
+v 1.2.0.0
+---------
+[+] New modular engine that can be expanded more easily to support 
+    new scan sources.
+[+] Added quick dismiss button to the log console to disable repeated popups.
+[+] Added the element first level children count to the tooltip.
+[+] Added SpaceSniffer binary snapshot file format.
+[+] Added load command line parameter.
+[+] Added inequality operators to the export scripting language.
+[!] Enhanced export module configuration behavior.
+[!] Now cluster size is available for all types of paths (also network 
+    where available).
+[!] Improved rescan performance.
+[!] Improved scan performance on Windows XP+ OSes (used new OS API).
+[!] Replaced old XML library with more optimized TinyXML.
+[!] Memory optimizations: 15% less ram usage.
+[!] Compiled with LARGEADDRESSAWARE flag: 1 more GB available on 64 bit systems.
+[!] Now the export dialog waits 500ms after typing a key before showing 
+    the preview.
+[!] Improved path handling: this should fix issues with the optional 
+    registry key on different OSes.
+[!] Improved stability.
+[!] Updated user manual.
+[#] Small correction on size specifiers (Gb to GB and so on...).
+[#] Fixed leftpad script command due to bad trimming.
+[#] Minor UI enhancements.
+
+
+v 1.1.4.0
+---------
+[+] Now it's possible to start an export to file from command line.
+[+] Added classes filter (example: multimedia, archives ecc...)
+[!] Improved stability when deleting a focused folder.
+[!] Added "SpaceSniffer" to all floating windows title.
+[#] Now paths with spaces behave again correctly in command line.
+
+v 1.1.3.1
+---------
+[!] Now if a filter is passed by the command line, it appears 
+    on the filter field on the interface.
+[#] Addressed the annoying "tag consistency check" issue 
+    that may occur during scan operations.
+[#] Addressed a "code 32" error log issue that may occur when 
+    a folder creation is intercepted by the real time scan engine.
+[#] Now the log console displays again error message strings, 
+    along with the error code.
+[#] If a selected (shadowed) file is deleted, now the shadow 
+    correctly disappears and there is no more "ghost" effect.
+
+
+v 1.1.3.0
+---------
+[+] Added file classes, you can assign colors to file types.
+[+] Added drop shadow on selected element for better visual tracking.
+[+] Added folder name mask filter, better control on files distribution.
+[+] Added logical/disk size, date and nesting level to export tags.
+[+] Added create, modify, access directives in file age filter.
+[+] Added logical size and disk size directives in file size filter.
+[+] Added a fuzzy match algorithm to parse filter directives.
+[+] Added DynaSmooth option for best feedback and performance.
+[!] Rescan function has been improved in performance.
+[!] File modification detection algorithm now is more efficient.
+[!] More customizable information is shown in the file tooltip.
+[!] Tagging has been extended to folders, for improved flexibility.
+[!] Now you can exclude big folders by tagging and filtering them.
+[!] The start dialog now supports multiple paths.
+[!] Redesigned configuration dialog.
+[!] Redesigned Quick Start and User Manual.
+[#] Fixed some memory leaks, optimized memory usage.
+[#] Minor algorithm and graphical fixes.
+
+v 1.1.2.0
+---------
+[+] Added font size configuration for graphic pane.
+[+] Added file attributes filtering.
+[+] Added support for browser keys (back, forward, home).
+[+] Optional flashing window at end of scan.
+[+] Scanning progress now it's reported on window title.
+[+] Added log console.
+[!] Enhanced Unicode support.
+[!] Optimized smart cache, now 50% faster (average).
+[!] Enhanced filter syntax (backward compatible).
+[!] Enhanced file tooltip behavior.
+[!] Added warning in case of bad filter.
+[!] Added warn on status bar for ADS scan if active.
+[!] Modified the Distribution Disclaimer.
+[#] Fixed scanning of very long path names and OS compressed files.
+[#] Fixed an issue on ADS filter.
+[#] Fixed some incorrect window overlapping issues.
+[#] Fixed CTRL+UP behavior (not working if filter field not focused).
+[#] Fixed minor graphics glitches.
+
+v 1.1.0.0
+---------
+[+] Added export module for customized file reporting.
+[+] Added file tagging feature.
+[+] Added quick filtering and tagging help under Help menu.
+[!] Added initial detail setting under config dialog.
+[!] Added file tagging filtering and excluding filters, added week 
+    units to age filter.
+[!] Added file date and time in mouse hover hint information.
+[!] Improved responsiveness to filtering in zoomed views.
+[!] Now it behaves better with system folders under 64 bit OSes.
+[#] Fixed delete dialog box z-ordering issue under Windows 2000/XP.
+[#] Fixed a misbehaviour in the file age filter.
+[#] Improved stability.
+[#] Minor bug fixes.
+
+v 1.0.4.0
+---------
+[+] Now command prompt parameters are supported. Please see doc.
+[+] Folders drag and drop added in start dialog and main window.
+[+] Folder browse added in start dialog.
+[+] Added opened windows menu items to the Windows menu.
+[+] Added keyboard shortcuts. Please see doc.
+[!] The start dialog now keeps open when a bad path is entered.
+    The previous behavior forced the user to reopen the dialog
+    if a typing mistake occurred.
+[!] Added media description near the media icon in start dialog
+    and in view window title.
+[!] Now a flash key icon is used for all removable media
+    except for A:\ and B:\ drives, that keep the floppy icon.
+[!] Now the mouse tooltip on the Treemap has a more user friendly
+    behavior.
+[#] Changed color management interface to fix a bug in previous
+    used control library.
+[#] If more than one view is opened on the same media, all views
+    after the first seem dead and need a "kickstart" through
+    the filter field. Now it behaves correctly.
+
+v 1.0.3.18
+----------
+First public release.
+
+How to interpret the Version Number
+-----------------------------------
+SpaceSniffer version number is composed by four digits:
+
+     application.major.minor.release (example: 1.0.3.18)
+
+Application digit will change only when really big modifications
+are made. Such modifications would affect the application in deep.
+Read it as a whole application rewriting from scratch, maybe even 
+programming language change. When this digit change, all minor
+digit will be zeroed. This digit will likely never change in the 
+life of this SpaceSniffer.
+
+Major digit will change when major modifications are made.
+Read it as a "new very important functions available" flag.
+When this digit change, all minor digit will be zeroed.
+
+Minor digit will change when minor modifications or enhancements 
+are made. Maybe new useful functions are added but not so important
+on the usage of the application. When this digit change, all minor
+digit will be zeroed.
+
+Release digit will change when only bug fixes are applied.
+
+So, if bug fixes are applied but also new features are added,
+the Major or Minor digits will prevail on Release digit.
+
+Copyright (C) 2007-2016 Uderzo Umberto. All rights reserved.
