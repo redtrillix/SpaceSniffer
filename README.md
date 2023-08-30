@@ -1,4 +1,7 @@
+<b><sub>:exclamation:This is an unofficial source, with the binaries being grabbed from the official website, no support will be provided for these binaries.:exclamation:</sub></b>
+
 # SpaceSniffer
+
 SpaceSniffer is a freeware disk space analyzer for Windows that make use of the Treemap concept to view the current disk usage. Among the most notable features you'll find:
 
 Features
