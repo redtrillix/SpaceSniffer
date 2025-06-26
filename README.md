@@ -1,4 +1,4 @@
-<b><sub>:exclamation:This is an unofficial source, with the binaries being grabbed from the official website, no support will be provided for these binaries.:exclamation:</sub></b>
+<b><sub>:exclamation:This is an unofficial source, with the binaries being grabbed from the official website. No support will be provided for these binaries.:exclamation:</sub></b>
 
 # SpaceSniffer - Unofficial source
 
